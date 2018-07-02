@@ -19,8 +19,7 @@ import com.squareup.picasso.Picasso;
 
 public class Frag_Detail extends Fragment {
 
-    //PlanetDetails pd;
-    Object object;
+    private Object object;
     TextView tvName;
     TextView tvDetails;
     ImageView ivStar;
@@ -99,7 +98,7 @@ public class Frag_Detail extends Fragment {
         return view;
     }
 
-    @Override
+  /*  @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
@@ -109,6 +108,6 @@ public class Frag_Detail extends Fragment {
             MainActivity ma = (MainActivity)getActivity();
             ma.addIntent(object);
         }
-    }
+    }*/
 
 }
